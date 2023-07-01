@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/zcashBlack_dark"
+    android:padding="30dp"
+    tools:context=".activities.LogInActivity">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="vertical">
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:id="@+id/lottieAnimationView"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:paddingTop="10dp"
+                    android:scaleType="fitCenter"
+                    app:flow_horizontalAlign="center"
+                    app:layout_constraintBottom_toTopOf="@+id/constraintLayout2"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.494"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.506"
+                    app:lottie_autoPlay="true"
+                    app:lottie_loop="true"
+                    app:lottie_rawRes="@raw/onlinechat" />
+
+                <EditText
+                    android:id="@+id/email_text_edit_login"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/bg_txtl"
+                    android:drawableStart="@drawable/baseline_mail_outline_24"
+                    android:drawablePadding="10dp"
+                    android:drawableTint="@color/blue"
+                    android:ems="10"
+                    android:hint="@string/email_gmail_com"
+                    android:inputType="textEmailAddress"
+                    android:minHeight="48dp"
+                    android:padding="15dp"
+                    android:paddingTop="15dp"
+                    android:textSize="16sp"
+
+                    android:textColor="@color/blue"
+                    android:textColorHint="@color/zcashGray"
+                    app:layout_constraintBottom_toTopOf="@+id/password_signs_in"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <EditText
+                    android:id="@+id/password_text_edit_login"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/bg_txtl"
+                    android:drawableStart="@drawable/lock"
+                    android:drawablePadding="8dp"
+                    android:drawableTint="@color/blue"
+                    android:ems="10"
+                    android:textSize="16sp"
+                    android:hint="@string/password"
+                    android:inputType="textPassword"
+                    android:minHeight="48dp"
+                    android:padding="15dp"
+                    android:textColor="@color/blue"
+                    android:textColorHint="@color/zcashGray"
+                    app:layout_constraintBottom_toTopOf="@+id/textView"
+                    app:layout_constraintEnd_toEndOf="@+id/username_sign_up"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="@+id/username_sign_up"
+                    app:layout_constraintTop_toBottomOf="@+id/username_sign_up" />
+
+
+                <Button
+                    android:id="@+id/login_button_login"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="32dp"
+                    android:layout_marginBottom="16dp"
+                    android:background="@drawable/bg_btn"
+                    android:padding="10dp"
+                    android:text="@string/login"
+                    android:textColor="@color/blue"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:clickable="true"
+                    android:elevation="4dp"
+                    android:textStyle="bold|normal"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="@+id/password_signs_up"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="@+id/password_signs_up"
+                    app:layout_constraintTop_toBottomOf="@+id/textView2"
+                    app:layout_constraintVertical_bias="1.0"
+                    android:focusable="true" />
+
+                <TextView
+                    android:id="@+id/dont_have_account"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="16dp"
+                    android:padding="5dp"
+                    android:text="@string/don_t_have_account"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="@string/camera"
+        android:icon="@drawable/camera"
+        android:iconTint="@color/black"
+        android:id="@+id/Camera"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:title="@string/logout"
+        android:id="@+id/logout"
+        android:icon="@drawable/logout"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:title="@string/search"
+        android:id="@+id/search"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item
+        android:title="@string/refresh"
+        android:id="@+id/refresh"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+
+
+</menu>

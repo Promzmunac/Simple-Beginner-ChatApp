@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="zcashYellow">#FFB900</color>
+    <color name="zcashYellow_dark">#FFAA17</color>
+
+    <color name="zcashGray">#616161</color>
+    <color name="zcashBlack_87">#DD000000</color>
+    <color name="zcashBlack_dark">#171717</color>
+    <color name="blue_light">#19376D</color>
+    <color name="blue">#576CBC</color>
+    <color name="blue_dark">#0B2447</color>
+
+    <color name="darkPurple">#301934</color>
+    <color name="lightPurple">#8604BE</color>
+    <color name="chatPurpleMsg">#A020F0</color>
+    <color name="chatPurpleSend">#CC8899</color>
+    <color name="chatPurple1">#51087E</color>
+    <color name="chatPurple2">#6C0BA9</color>
+    <color name="chatPurple3">#880ED4</color>
+    <color name="chatPurple4">#C576F6</color>
+    <color name="chatPurple5">#D7A1F9</color>
+
+
+</resources>

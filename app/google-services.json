@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "224176615976",
+    "firebase_url": "https://talkertive-54787-default-rtdb.firebaseio.com",
+    "project_id": "talkertive-54787",
+    "storage_bucket": "talkertive-54787.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:224176615976:android:e95bc416d2fbf6f1db3b1d",
+        "android_client_info": {
+          "package_name": "com.example.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "224176615976-3p4bom47g984fj1hie1f215d9o9r11u5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.chatapp",
+            "certificate_hash": "3a1877be058635c9f02c9776a46186fd75233523"
+          }
+        },
+        {
+          "client_id": "224176615976-alh6nn94ulerkuauhti18rdphnkos78e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDxb2npic6mHkJniQ3UYhBiuoGHo3zjmtI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "224176615976-9ooapgeavn2g5809n95mjhpv6oo3v04i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

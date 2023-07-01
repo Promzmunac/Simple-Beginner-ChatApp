@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Mingle</string>
+
+    <string name="sign_out">Sign Out</string>
+    <string name="profile">Profile</string>
+    <string name="settings">Settings\n</string>
+    <string name="Camera">Camera</string>
+    <string name="Search">Search</string>
+    <string name="time">12:35</string>
+    <string name="login">login</string>
+    <string name="create_account">Create Account</string>
+    <string name="email_gmail_com">Email@gmail.com</string>
+    <string name="your_web_client_id">web id</string>
+    <string name="sign_up">Sign UP</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="message_msg">Message</string>
+    <string name="senders_message">senders message to any of you user telling them how far you
+        can go about being a very good citizen of a country</string>
+    <string name="logout">LogOut</string>
+    <string name="search">search</string>
+    <string name="refresh">refresh</string>
+    <string name="camera">Camera</string>
+    <string name="mingle">Mingle</string>
+    <string name="don_t_have_account">Don\'t have account</string>
+    <string name="already_have_an_account">Already have an account</string>
+
+
+</resources>

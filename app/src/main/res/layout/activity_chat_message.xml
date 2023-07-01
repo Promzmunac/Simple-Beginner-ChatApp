@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/zcashBlack_dark"
+    android:padding="6dp"
+    tools:context=".activities.ChatMessageActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/message_chat_rv"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="6dp"
+        android:nestedScrollingEnabled="true"
+        android:screenReaderFocusable="true"
+        app:layout_constraintBottom_toTopOf="@+id/message_chat_msg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:listitem="@layout/recieve_message" />
+
+
+    <EditText
+        android:id="@+id/message_chat_msg"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginEnd="8dp"
+        android:inputType="text|number|textAutoComplete"
+        android:background="@drawable/rounded_message_gray"
+        android:drawableStart="@drawable/ic_emoji_emotions"
+        android:drawableEnd="@drawable/camera"
+        android:drawablePadding="15dp"
+        android:drawableTint="#493965"
+        android:textCursorDrawable="@color/black"
+        android:hint="@string/message_msg"
+        android:maxWidth="20dp"
+        android:minHeight="48dp"
+        android:textSize="16sp"
+        android:paddingStart="10dp"
+        android:paddingTop="10dp"
+        android:paddingEnd="20dp"
+        android:paddingBottom="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/sendImg"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/sendImg"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_weight="20"
+        android:background="@drawable/circle_bg"
+        android:padding="6dp"
+        android:src="@drawable/ic_send"
+        app:layout_constraintBottom_toBottomOf="@+id/message_chat_msg"
+        app:layout_constraintEnd_toEndOf="@+id/message_chat_rv"
+        app:layout_constraintTop_toTopOf="@+id/message_chat_msg" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
